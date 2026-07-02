@@ -1,0 +1,2 @@
+# SimpleQuakeSensor
+Simple Earthquake Analyzer.
