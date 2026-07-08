@@ -22,8 +22,12 @@ The circuit works as an electronic ear that works as a broadband receiver
 3 - Connect your devices input to ground using 2 probes + good coaxial <example>  
 4 - Take audio samples as you like: `parec raw_sample.raw --file-format=raw` ( Linux command )  
               or    
-5 - Use your favorite Audio analizer to listen and view the live data  
+5 - Use your favorite Audio analizer to listen and view the live data `jaaa -A -d hw:1`  
 
 ### My Results
 
 I have included images, screenshoots and audio files captured during relevant events:  
+
+a) 0 - 1.5 kHz
+
+![First Natural Capture.](/Images/natural_capture.png)
