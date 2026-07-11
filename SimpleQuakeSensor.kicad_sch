@@ -2103,12 +2103,6 @@
 		(uuid "0c24a519-5946-4b62-a928-2ec6fb033f65")
 	)
 	(junction
-		(at 184.15 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f992d6b-8410-49c2-a689-7049baa1f460")
-	)
-	(junction
 		(at 165.1 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2125,6 +2119,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d4ad6bf-e90d-4b5e-a8bc-982c150d83c7")
+	)
+	(junction
+		(at 195.58 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "245ea2df-c05a-4b49-a151-b53e30043b82")
 	)
 	(junction
 		(at 184.15 88.9)
@@ -2211,12 +2211,6 @@
 		(uuid "96ccbbc0-f984-43b3-9f0b-6e81697b5f41")
 	)
 	(junction
-		(at 193.04 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "afc8c32c-54bd-4f0b-a544-05d78f990e18")
-	)
-	(junction
 		(at 144.78 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2235,6 +2229,12 @@
 		(uuid "b4e9e6ee-9e2c-4e79-b36f-93dbd93f6e30")
 	)
 	(junction
+		(at 184.15 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7840e8e-0833-467b-a9d5-8a2c7a37dbe7")
+	)
+	(junction
 		(at 179.07 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2245,12 +2245,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfc60c7d-b64b-4fb8-9383-1487f572ba15")
-	)
-	(junction
-		(at 193.04 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf36842f-f736-4e5e-a0f5-14b00c3bac55")
 	)
 	(junction
 		(at 191.77 92.71)
@@ -2275,6 +2269,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4eda05b-44aa-4a6e-8be7-c2a173d372af")
+	)
+	(junction
+		(at 195.58 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5f72c9e-85ad-41c4-b401-ea38790ed510")
 	)
 	(junction
 		(at 165.1 50.8)
@@ -2308,7 +2308,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 43.18) (xy 193.04 43.18)
+			(xy 185.42 43.18) (xy 195.58 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2508,7 +2508,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 60.96) (xy 199.39 68.58)
+			(xy 203.2 60.96) (xy 203.2 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2538,7 +2538,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 43.18) (xy 193.04 88.9)
+			(xy 195.58 43.18) (xy 195.58 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2668,7 +2668,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 73.66) (xy 199.39 88.9)
+			(xy 203.2 73.66) (xy 203.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2718,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 88.9) (xy 193.04 88.9)
+			(xy 179.07 88.9) (xy 195.58 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3028,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 88.9) (xy 193.04 88.9)
+			(xy 203.2 88.9) (xy 195.58 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3158,7 +3158,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 50.8) (xy 199.39 50.8)
+			(xy 184.15 50.8) (xy 203.2 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3208,7 +3208,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 50.8) (xy 199.39 53.34)
+			(xy 203.2 50.8) (xy 203.2 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3228,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 36.83) (xy 193.04 43.18)
+			(xy 195.58 36.83) (xy 195.58 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3478,7 +3478,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 nF"
+		(property "Value" "2.2 nF"
 			(at 187.198 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3720,7 +3720,7 @@
 				)
 			)
 		)
-		(property "Value" "10 nF"
+		(property "Value" "47 nF"
 			(at 158.75 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3801,7 +3801,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 M"
+		(property "Value" "2.2 M"
 			(at 172.72 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3873,7 +3873,7 @@
 		(dnp no)
 		(uuid "4740bf06-0133-4235-b4df-03ee87732041")
 		(property "Reference" "R3"
-			(at 120.65 67.3099 0)
+			(at 122.936 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3884,7 +3884,7 @@
 			)
 		)
 		(property "Value" "10 M"
-			(at 120.65 69.8499 0)
+			(at 122.936 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4383,7 +4383,7 @@
 		(dnp no)
 		(uuid "5e1bcb5f-5160-4599-b00c-38e0dead54bd")
 		(property "Reference" "R1"
-			(at 97.7899 92.71 0)
+			(at 97.79 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4394,7 +4394,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 100.3299 92.71 0)
+			(at 100.33 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4542,7 +4542,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 199.39 57.15 0)
+		(at 203.2 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4553,7 +4553,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bee9d33-cdda-4d7b-ac66-36eb5463abba")
 		(property "Reference" "C14"
-			(at 203.2 54.9909 0)
+			(at 207.01 54.9909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4564,7 +4564,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 203.2 57.5309 0)
+			(at 207.01 57.5309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4575,7 +4575,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R"
-			(at 200.3552 60.96 0)
+			(at 204.1652 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4586,7 +4586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 57.15 0)
+			(at 203.2 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4597,7 +4597,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 199.39 57.15 0)
+			(at 203.2 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4703,7 +4703,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 199.39 71.12 270)
+		(at 203.2 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4714,7 +4714,7 @@
 		(fields_autoplaced yes)
 		(uuid "750ba675-7a1b-465e-8f1f-e3c44271e244")
 		(property "Reference" "J2"
-			(at 201.93 69.3303 90)
+			(at 205.74 69.3303 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4725,7 +4725,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial_Small"
-			(at 201.93 71.8703 90)
+			(at 205.74 71.8703 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4736,7 +4736,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal"
-			(at 199.39 71.12 0)
+			(at 203.2 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4747,7 +4747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 71.12 0)
+			(at 203.2 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,7 +4758,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 199.39 71.12 0)
+			(at 203.2 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4793,10 +4793,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87786877-0450-4435-9bf8-406ab3359b27")
 		(property "Reference" "C7"
-			(at 157.48 80.0099 0)
+			(at 155.194 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4806,8 +4805,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 nF"
-			(at 157.48 82.5499 0)
+		(property "Value" "2.2 nF"
+			(at 155.194 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4958,7 +4957,7 @@
 		(dnp no)
 		(uuid "9c2ffc6a-5ce6-4250-98d7-3f4b6d850469")
 		(property "Reference" "R5"
-			(at 132.08 67.3099 0)
+			(at 134.112 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4969,7 +4968,7 @@
 			)
 		)
 		(property "Value" "10 M"
-			(at 132.08 69.8499 0)
+			(at 134.112 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5270,7 +5269,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 193.04 31.75 270)
+		(at 195.58 31.75 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5281,7 +5280,7 @@
 		(fields_autoplaced yes)
 		(uuid "b54cbf8d-16bc-4e6c-8424-6a718f117af8")
 		(property "Reference" "J3"
-			(at 194.31 31.1149 90)
+			(at 196.85 31.1149 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5292,7 +5291,7 @@
 			)
 		)
 		(property "Value" "Bat -12V  GND"
-			(at 194.31 33.6549 90)
+			(at 196.85 33.6549 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5303,7 +5302,7 @@
 			)
 		)
 		(property "Footprint" "fmd-laser-libs:PinHeader_1x01_P2.54mm_Vertical_2_FMD"
-			(at 193.04 31.75 0)
+			(at 195.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5314,7 +5313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 31.75 0)
+			(at 195.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5325,7 +5324,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 193.04 31.75 0)
+			(at 195.58 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6306,7 +6305,7 @@
 				)
 			)
 		)
-		(property "Value" "100 K"
+		(property "Value" "22 K"
 			(at 173.99 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6377,7 +6376,7 @@
 		(dnp no)
 		(uuid "ece5988f-a0d5-4029-b72c-d1d86920728e")
 		(property "Reference" "C3"
-			(at 127.762 81.026 90)
+			(at 130.048 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6386,8 +6385,8 @@
 				)
 			)
 		)
-		(property "Value" "1 nF"
-			(at 127.762 78.486 90)
+		(property "Value" "47 nF"
+			(at 130.048 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
