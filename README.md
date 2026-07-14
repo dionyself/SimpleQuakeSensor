@@ -13,7 +13,7 @@ The circuit works as an electronic ear that works as a broadband receiver
 - Very High Frequency: 30 MHz < f < 300 MHz    
 
 ### Real PCB View (from Kicad 3D viewer)
-![Real World View.](/Images/SimpleQuakeSensorView.png)
+![Real World View.](/Images/SimpleQuakeSensorView2.png)
 
 ## How to use it?
 
