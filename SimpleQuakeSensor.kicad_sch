@@ -5034,7 +5034,7 @@
 				)
 			)
 		)
-		(property "Value" "10 K"
+		(property "Value" "1 K"
 			(at 215.9 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
