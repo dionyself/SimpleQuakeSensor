@@ -1,7 +1,7 @@
 # Simple Quake Sensor 
 SimpleQuake Sensor is an Earthquake Analyzer. (Work in Progress)  
 Useful to capture and analyze Natural EM wave emitions and Earthquake EM emitions.  
-The circuit works as an electronic ear that works as a broadband receiver  
+The circuit works as an EM ear and broadband receiver  
 
 ### Primary EM waves 0 - 40 Hz  
 - Ultra Low Frequency: f < 3 Hz  
@@ -18,8 +18,8 @@ The circuit works as an electronic ear that works as a broadband receiver
 ## How to use it?
 
 1 - Assembly the device  (gerber files provided <here>)  
-2 - Connect your devide to your audio analizer / pc using this <> cable  
-3 - Connect your devices input to ground using 2 probes + good coaxial <example>  
+2 - Connect your device to your audio card / pc using this <> cable  
+3 - Connect your device's input to ground using 2 probes and a good coaxial cable <example>  
 4 - Take audio samples as you like: `parec raw_sample.raw --file-format=raw` ( Linux command )  
               or    
 5 - Use your favorite Audio analizer to listen and view the live data `jaaa -A -d hw:1`  
